@@ -1,0 +1,29 @@
+.datatable{
+    border: 5px solid rgb(240, 227, 52);
+    border-radius: 15px;
+    border-spacing: 5px;
+    overflow: hidden;
+}
+.datatable thead{
+    height: 56px;
+}
+.datatable tbody tr{
+    height: 52px;
+}
+.datatable tbody tr:nth-child(odd){
+    background-color: #cf0793;
+}
+.datatable tbody tr:nth-child(even){
+    background-color: rgb(252, 78, 228);
+}
+.datatable td{
+    border-top: 5px solid rgb(255, 255, 255);
+}
+.datatable td , .datatable th{
+    padding: 0px 16px;
+    text-align: right;
+}
+.datatable td:last-child *{
+    margin-top: 4px ;
+    margin-bottom: 4px;
+}

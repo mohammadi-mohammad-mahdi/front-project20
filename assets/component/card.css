@@ -1,0 +1,46 @@
+
+
+body{
+   direction: rtl;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.card_Filled{
+    background-color: #f18adb;
+    font-family: B yekan,Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: -0px 0px 20px -1px #d61d1d;
+    padding: 0px 15px 0px 15px;
+    margin: 10px;
+}
+
+.img{
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.btn{
+    direction: rtl;
+    cursor: pointer;
+    height: var(--height);
+    border-radius: var(--rudios);
+    padding: var(--padding);
+    text-align: var(--align);
+    font-size: var(--fontsize);
+    font-weight: 400;
+    margin: 8px;
+    width: 100px;
+    font-family:  var(--fontfamily); ;
+    line-height: calc( var(--height) - 2px );
+    margin: max(8px, calc(48px - var(--height))) 0px 0px 16px;
+    display: inline-block;
+    vertical-align: middle;
+    align-items: normal;
+    text-decoration: none;
+    }
+    
+

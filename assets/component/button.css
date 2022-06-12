@@ -1,0 +1,25 @@
+@import url('../styles.css');
+
+.btn {
+ background-color: var(--md-sys-color-primary-light);   
+color:var(--md-sys-color-on-primary-light);
+cursor: pointer;
+font-family:  var(--fontfamilybody); 
+height: var(--height);
+border-radius: var(--rudios);
+padding: var(--padding);
+text-align: var(--align);
+font-size: var(--fontsize);
+font-weight: 400;
+line-height: calc( var(--height) - 2px );
+}
+.btn > *{
+    
+    vertical-align: middle;
+}
+.btn.Outlined{
+    background-color: rgb(241, 171, 236);
+    color: var(--primary);
+    border: 5px solid ;
+    border-color: var(--md-sys-color-outline-light);  
+    }

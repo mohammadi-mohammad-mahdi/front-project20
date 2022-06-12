@@ -1,0 +1,30 @@
+@import url('component/formComponents.css');
+@import url('component/navigation.css');
+@import url('component/footer.css');
+@import url('styles.css');
+
+
+:root{
+    --direction : rtl ;
+    --md-sys-color-background-light: rgb(243, 196, 243);
+    --md-sys-color-primary-light: #bf27dd;
+    --md-sys-color-on-primary-light: #ffffff;
+    --md-sys-color-outline-light: #bb1010;
+    --height: 50px;
+    --padding: 0 24px;
+    --rudios: calc( var(--height) / 3 );
+    --align : center;
+    --fontsize : 15px;
+    --fontfamily : 'Roboto' ;
+    --fontfamilybody :  'B Titr';
+    --border-bottom-left-radius : 80px ;
+    --border-bottom-right-radius : 80px ;
+    --border-style : solid ;
+}
+body{
+    direction: var(--direction);
+    background-color:var( --md-sys-color-background-light) ;
+    font-family: var(--fontfamilybody);
+    text-align: center;
+}
+

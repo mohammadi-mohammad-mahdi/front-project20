@@ -1,0 +1,11 @@
+.gird{
+    display: grid;
+    grid-template-columns:  33% auto  ;
+    grid-column: span 2;
+
+}
+.cards{
+    display: grid;
+    gap: 8px;
+    grid-template-columns:  auto auto auto  ;
+}

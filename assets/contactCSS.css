@@ -1,0 +1,32 @@
+body{
+    direction: rtl;
+}
+    
+form div *{
+
+    vertical-align: middle;
+    border-radius: 20px;
+}
+
+h1 {
+    font-family: 'B Titr';
+    text-align: center;
+}
+label  {
+    font-family: 'B Titr';
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin: 5px;
+}
+
+input {
+    height: 2em;
+}
+ textarea{
+    height: 5em;
+}
+
+input:not([type = "submit"]) , textarea {
+    width: 50%;
+}

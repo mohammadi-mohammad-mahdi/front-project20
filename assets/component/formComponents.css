@@ -1,0 +1,42 @@
+@import url('card.css');
+@import url('button.css');
+@import url('datatables.css');
+@import url('typography.css');
+@import url('layout.css');
+@import url('../styles.css');
+
+form {
+    background-color: white;
+    border-style: var(--border-style);
+    border-bottom-left-radius: var(--border-bottom-left-radius);
+    border-top-right-radius: var(--border-bottom-right-radius);
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+form div *{
+
+    vertical-align: middle;
+    border-radius: 10px;
+    height: 40px;
+    width: 340px;
+    margin: 7px;
+    font-family: 'B Titr';
+  
+    }
+    label {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 200px;
+    }
+    p{
+        font-size: 30px;
+    }
+    textarea{
+        text-align: center;
+        width: 100%;
+    }
+    
